@@ -7,7 +7,7 @@ const rl = readline.createInterface({ input, output });
 console.log('Hello! How your name?\n ');
 
 rl.on('line', (input) => {
-    if (input === ".exit") {
+    if (input === "exit") {
       console.log('Goodbye!');
       process.exit();
     } else {
